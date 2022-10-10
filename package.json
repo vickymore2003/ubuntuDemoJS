@@ -4,7 +4,7 @@
   "description": "this repo is on Ubuntu",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --forceExit"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/vickymore2003/ubuntuDemoJS/issues"
   },
-  "homepage": "https://github.com/vickymore2003/ubuntuDemoJS#readme"
+  "homepage": "https://github.com/vickymore2003/ubuntuDemoJS#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "collections": "^5.1.13",
+    "jest-html-reporter": "^3.7.0",
+    "jest-puppeteer": "^6.1.1",
+    "mocha": "^10.0.0",
+    "prettier": "^2.7.1",
+    "puppeteer": "^18.0.5"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
 }
